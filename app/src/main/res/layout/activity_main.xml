@@ -21,20 +21,20 @@
             android:layout_height="wrap_content"
             android:textColor="@android:color/black"
             android:textSize="30sp"
-            app:msg1="@{dataViewModel.str1}"
-            app:msg2="@{dataViewModel.str2}" />
+            app:msg1="@{dataViewModel.data.str1}"
+            app:msg2="@{dataViewModel.data.str2}" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="@={dataViewModel.str1}" />
+            android:text="@={dataViewModel.data.str1}" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="@={dataViewModel.str2}" />
+            android:text="@={dataViewModel.data.str2}" />
     </LinearLayout>
 
 </layout>
